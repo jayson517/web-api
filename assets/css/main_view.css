@@ -1,0 +1,121 @@
+/**
+ *  Main
+ */
+html {
+	scroll-behavior: smooth;
+}
+
+/**
+ * Navigation
+ */
+.navbar {
+	background: rgb(3,21,83);
+	background: linear-gradient(159deg, rgba(3,21,83,1) 10%, rgba(34,61,177,1) 55%, rgba(54,76,180,1) 100%);
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.navbar span h6 {
+	color: yellow;
+}
+
+.navbar img {
+	width: 60px;	
+}
+
+
+.fas {
+	font-size: 20px;
+}
+
+.sidebar {
+	height: calc(100vh - 42px);
+	width: 140px;
+	background: rgb(14,21,43);
+	background: linear-gradient(159deg, rgba(14,21,43,1) 10%, rgba(30,31,36,1) 55%, rgba(7,9,19,1) 100%);
+}
+
+.sidebar ul li {
+	color: white;
+}
+
+.sidebar ul {
+	position: absolute;
+	z-index: 1;
+	padding-top: 50px;
+	list-style-type: none;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+/**
+ * Content
+ */
+.recordsDate {
+
+}
+
+.content,
+.cont-genReport {
+	padding-top: 80px;
+}
+
+.cont-search-genReport {
+	background: rgb(32,99,92);
+background: linear-gradient(132deg, rgba(32,99,92,1) 1%, rgba(49,131,130,1) 50%, rgba(215,251,255,1) 100%);
+}
+	
+.cont-search-genReport label {
+	color: yellow;
+}
+
+.content table thead{
+	font-weight: bold;
+	background: rgb(35,85,111);
+background: linear-gradient(345deg, rgba(35,85,111,1) 7%, rgba(17,42,87,1) 55%, rgba(11,35,69,1) 93%);
+}
+
+.content table {
+	font-size: 12px;
+}
+
+.table-genReport {
+	border: 2px solid blue;
+}
+
+.table-genReport thead{
+	border: 2px solid blue;
+}
+
+.records {
+	height: 80px;
+	font-weight: bold;
+	font-size: 18px;
+	width: 170px;
+	padding-top: 5px;
+}
+
+.main-li a {
+	text-decoration: none;
+	color: #ececec;
+}
+
+.main-li a p:hover {
+	color: yellow;
+}
+
+.cont-mainDash,
+.cont-viewLogs,
+.cont-genReport,
+.cont-webApi {
+	display: none;
+}
+
+/**
+ * Footer
+ */
+footer {
+	background: rgb(14,21,43);
+	background: linear-gradient(349deg, rgba(14,21,43,1) 10%, rgba(30,31,36,1) 55%, rgba(7,9,19,1) 100%);
+}
